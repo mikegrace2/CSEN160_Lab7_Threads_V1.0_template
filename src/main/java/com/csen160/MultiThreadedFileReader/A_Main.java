@@ -2,9 +2,9 @@ package com.csen160.MultiThreadedFileReader;
 
 public class A_Main {
     public static void main(String[] args) {
-        Thread t1 = new FileReaderThread("file1.txt");
-        Thread t2 = new FileReaderThread("file2.txt");
-        Thread t3 = new FileReaderThread("file3.txt");
+        Thread t1 = new FileReaderThread("files/file1.txt");
+        Thread t2 = new FileReaderThread("files/file2.txt");
+        Thread t3 = new FileReaderThread("files/file3.txt");
 
         // implement start all three threads
 

@@ -64,9 +64,9 @@ public class AllExercisesTest {
             }
         }
 
-        TrackableThread t1 = new TrackableThread("Files/file1.txt");
-        TrackableThread t2 = new TrackableThread("Files/file2.txt");
-        TrackableThread t3 = new TrackableThread("Files/file3.txt");
+        TrackableThread t1 = new TrackableThread("files/file1.txt");
+        TrackableThread t2 = new TrackableThread("files/file2.txt");
+        TrackableThread t3 = new TrackableThread("files/file3.txt");
 
         assertEquals(3, createdCount.get(), "Should create 3 threads");
 
@@ -165,7 +165,7 @@ public class AllExercisesTest {
 
     @Test
     void testExercise3() throws Exception {
-        String testFileName = "Files/file1.txt";
+        String testFileName = "files/file1.txt";
 
         // Calculate expected counts first
         int expectedLineCount = 0;
